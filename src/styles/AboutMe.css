@@ -1,0 +1,46 @@
+.about-me-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* 가로 길이 확장 */
+  margin: 20px auto;
+}
+
+.card-image img {
+  width: 200px; /* 이미지 크기 확대 */
+  height: 200px; /* 이미지 크기 확대 */
+  border-radius: 20px; /* 직사각형 형태 유지, 살짝 둥근 처리 */
+  object-fit: cover;
+}
+
+.card-info {
+  margin-left: 30px; /* 카드 텍스트와 이미지 간 간격 증가 */
+  flex: 1;
+}
+
+.card-info h1 {
+  margin: 0 0 15px;
+  font-size: 2rem; /* 텍스트 크기 조정 */
+  color: #333;
+}
+
+.card-info p {
+  margin: 10px 0;
+  font-size: 1.1rem; /* 텍스트 크기 조금 확대 */
+  color: #555;
+}
+
+.card-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-info a:hover {
+  text-decoration: underline;
+}
